@@ -1,0 +1,9 @@
+name "Xr_Preview_install_Tools"
+version 1.0
+ 
+extract to $temp\XrTools_Installer
+ 
+run install.ms
+drop install.ms
+ 
+clear temp on MAX exit
